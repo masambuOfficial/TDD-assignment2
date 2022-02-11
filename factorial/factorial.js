@@ -1,12 +1,13 @@
 function factorial(num)   
 {  
 if (num == 0) {  
-return 1;  
-}else if(num < 0){
-return undefined;
+    return 1;  
+}
+else if(num < 0){
+    return undefined;
 }  
 else {  
-return num * factorial( num - 1 );  
+    return num * factorial( num - 1 );  
 }  
 }  
 
